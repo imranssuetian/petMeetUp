@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32012305096AF8FADC63ED83 /* Pods_petMeetUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FB7889B61205129611DFA6 /* Pods_petMeetUp.framework */; };
 		FF248F3B217F04E800D28489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF248F3A217F04E800D28489 /* AppDelegate.swift */; };
-		FF248F3D217F04E800D28489 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF248F3C217F04E800D28489 /* ViewController.swift */; };
+		FF248F3D217F04E800D28489 /* LoginViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF248F3C217F04E800D28489 /* LoginViewContoller.swift */; };
 		FF248F40217F04E800D28489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF248F3E217F04E800D28489 /* Main.storyboard */; };
 		FF248F43217F04E800D28489 /* petMeetUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF248F41217F04E800D28489 /* petMeetUp.xcdatamodeld */; };
 		FF248F45217F04E900D28489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF248F44217F04E900D28489 /* Assets.xcassets */; };
 		FF248F48217F04E900D28489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF248F46217F04E900D28489 /* LaunchScreen.storyboard */; };
+		FF248F50217F38C800D28489 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF248F4F217F38C800D28489 /* GoogleService-Info.plist */; };
+		FF248F52217F550300D28489 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF248F51217F550300D28489 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07FB7889B61205129611DFA6 /* Pods_petMeetUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_petMeetUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F06F9B78C8A39D4DC126D0 /* Pods-petMeetUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-petMeetUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-petMeetUp/Pods-petMeetUp.debug.xcconfig"; sourceTree = "<group>"; };
+		CB057E423231C6EC4521360B /* Pods-petMeetUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-petMeetUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-petMeetUp/Pods-petMeetUp.release.xcconfig"; sourceTree = "<group>"; };
 		FF248F37217F04E800D28489 /* petMeetUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = petMeetUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF248F3A217F04E800D28489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF248F3C217F04E800D28489 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF248F3C217F04E800D28489 /* LoginViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewContoller.swift; sourceTree = "<group>"; };
 		FF248F3F217F04E800D28489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF248F42217F04E800D28489 /* petMeetUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = petMeetUp.xcdatamodel; sourceTree = "<group>"; };
 		FF248F44217F04E900D28489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF248F47217F04E900D28489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF248F49217F04E900D28489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF248F4F217F38C800D28489 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF248F51217F550300D28489 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32012305096AF8FADC63ED83 /* Pods_petMeetUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		298BB36A052E32DF6E5E00CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92F06F9B78C8A39D4DC126D0 /* Pods-petMeetUp.debug.xcconfig */,
+				CB057E423231C6EC4521360B /* Pods-petMeetUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A50BBA99511AF02CFDA68B6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07FB7889B61205129611DFA6 /* Pods_petMeetUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF248F2E217F04E700D28489 = {
 			isa = PBXGroup;
 			children = (
 				FF248F39217F04E800D28489 /* petMeetUp */,
 				FF248F38217F04E800D28489 /* Products */,
+				298BB36A052E32DF6E5E00CF /* Pods */,
+				A50BBA99511AF02CFDA68B6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +85,11 @@
 			isa = PBXGroup;
 			children = (
 				FF248F3A217F04E800D28489 /* AppDelegate.swift */,
-				FF248F3C217F04E800D28489 /* ViewController.swift */,
+				FF248F3C217F04E800D28489 /* LoginViewContoller.swift */,
+				FF248F51217F550300D28489 /* HomeViewController.swift */,
 				FF248F3E217F04E800D28489 /* Main.storyboard */,
 				FF248F44217F04E900D28489 /* Assets.xcassets */,
+				FF248F4F217F38C800D28489 /* GoogleService-Info.plist */,
 				FF248F46217F04E900D28489 /* LaunchScreen.storyboard */,
 				FF248F49217F04E900D28489 /* Info.plist */,
 				FF248F41217F04E800D28489 /* petMeetUp.xcdatamodeld */,
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF248F4C217F04E900D28489 /* Build configuration list for PBXNativeTarget "petMeetUp" */;
 			buildPhases = (
+				2B81F24C1460BB67756084AB /* [CP] Check Pods Manifest.lock */,
 				FF248F33217F04E800D28489 /* Sources */,
 				FF248F34217F04E800D28489 /* Frameworks */,
 				FF248F35217F04E800D28489 /* Resources */,
+				334189AE05CB3D6173C5E604 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF248F48217F04E900D28489 /* LaunchScreen.storyboard in Resources */,
+				FF248F50217F38C800D28489 /* GoogleService-Info.plist in Resources */,
 				FF248F45217F04E900D28489 /* Assets.xcassets in Resources */,
 				FF248F40217F04E800D28489 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +166,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B81F24C1460BB67756084AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-petMeetUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		334189AE05CB3D6173C5E604 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-petMeetUp/Pods-petMeetUp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-petMeetUp/Pods-petMeetUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF248F33217F04E800D28489 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF248F3D217F04E800D28489 /* ViewController.swift in Sources */,
+				FF248F3D217F04E800D28489 /* LoginViewContoller.swift in Sources */,
 				FF248F43217F04E800D28489 /* petMeetUp.xcdatamodeld in Sources */,
 				FF248F3B217F04E800D28489 /* AppDelegate.swift in Sources */,
+				FF248F52217F550300D28489 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +361,7 @@
 		};
 		FF248F4D217F04E900D28489 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F06F9B78C8A39D4DC126D0 /* Pods-petMeetUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +380,7 @@
 		};
 		FF248F4E217F04E900D28489 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB057E423231C6EC4521360B /* Pods-petMeetUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
